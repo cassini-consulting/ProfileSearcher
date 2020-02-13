@@ -14,7 +14,7 @@ def split_text(txt, length):
     return out
 
 
-def create_inp_json(text, ata_max_len = 5000, language='de'):
+def create_inp_json(text, ata_max_len = 5120, language='de'):
     text_list = split_text(text, ata_max_len)
 #    print(text_list)
     docs = [
